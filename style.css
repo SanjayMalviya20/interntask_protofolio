@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0%;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.804);
+    
+    transition: all 0.2s;
+}
+main{
+    margin: auto;
+    width: 70%;
+}
+.flexl{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 10px;
+
+}
+
+.flexl>h1{
+    font-size: 3rem;
+    color: orange;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.flexl>p{
+    color: white;
+}
+.flexr{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 10px;
+
+}
+.flexr>h1{
+    font-size: 3rem;
+    color: orange;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.flexr>p{
+    color: white;
+}
+nav{
+    display: flex;
+    /* position: fixed; */
+    justify-content: space-around;
+    height: 100px;
+    /* background-color: transparent; */
+/* backdrop-filter:blur(10px) ; */
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    align-items: center;
+}
+.boxes {
+    
+    display: flex;
+    align-items: center;
+    height: 300px;
+    justify-content: center;
+    position: absolute;
+    gap: 20px;
+    left: 0;
+    flex-direction: column;
+    flex-wrap: wrap;
+    right: 0;
+    z-index: 20;
+    top: -124px;
+}
+#five {
+    width: 337px;
+    height: 371px;
+}
+.lefti{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.lefti>div>p{
+    color: white;
+}
+.lefti>div>h1{
+    color: white;
+}
+.work{
+    background-color: black;
+    width: 100%;
+    height: 478px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}
+.sponsors{
+flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        height: 200px;
+        mix-blend-mode: color-burn;
+    
+}
+.contact{
+    display: flex;
+    gap: 10px;
+}
+#one{
+    width: 150px;
+}
+#two{
+    width: 250px;
+}
+#three{
+    width: 250px;
+}
+#four{
+    width: 150px;
+}
+.cube:hover{
+    cursor: pointer;
+    background-color: orange;
+    transition-duration: 0.6s;
+}
+.cube{
+    width: 18%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    height: 66%;
+    background-color: rgba(0, 0, 0, 0.552);
+color: white;
+}
+.spaceb{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}
+.five {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+    background: #070a0f;
+    height: 540px;
+    flex-direction: column;
+    align-items: center;
+}
+.fx{
+    display: flex;
+    justify-content: space-around;
+    margin: 44px;
+    gap: 279px;
+    align-items: center;
+}
+.lf{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.third{
+    display: flex;
+flex-wrap: wrap;
+    height: 943px;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(75, 74, 74, 0.333);
+    position: relative;
+}
+.sec{
+    height: 448px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.619);
+}
+.text-white{
+color: white;
+}
+.lt{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.h1{
+color: white;
+}
+.p2{
+    color: white;
+}
+.left{
+    background-color: rgb(247, 179, 6);
+    border-radius: 10px 50px 50px 50px;
+    width: 50px;
+    height: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+  
+    align-items: center;
+
+}
+.logo{
+    background-color: rgb(247, 179, 6);
+    border-radius: 10px 50px 50px 50px;
+    width: 50px;
+    height: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+  
+    align-items: center;
+}
+.f{
+    color: orange;
+    text-decoration: underline;
+    font-size: 17px;
+    text-decoration-thickness: 3px;
+    text-decoration-style: dotted;
+}
+.first {
+    display: flex;
+    background-image: url(./bg2-removebg-preview.png);
+    justify-content: space-between;
+    height: 448px;
+    background-position: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+.r>div>div>p{
+    color: white;
+}
+.rt{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.r>div>h1{
+    color: white;
+}
+.li {
+    display: flex;
+    justify-content: space-evenly;
+    height: 260px;
+    align-items: center;
+}
+.lv{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.rs>p{
+    font-weight: 600;
+}
+.big{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.big>p{
+font-size: 20px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.rs{
+    display: flex;
+    flex-direction: column;
+    gap: 73px;
+}
+.t-left{
+    text-align: left;
+}
+.ri{
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+
+}
+.ri>div>img{
+    width: 250px;
+}
+.four{
+    
+    background-color: #111111;
+}
+.h{
+    font-size: 35px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#span{
+  text-decoration:underline;
+  text-decoration-color: rgb(255, 162, 0);
+text-decoration-thickness: 8px;
+text-decoration-style:dotted;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.l{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.r{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+.p1{
+    color: rgb(131, 128, 128);
+}
+.gap{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fa{
+    color: orange;
+    font-size: 14px;
+}
+.l>div>img{
+    width: 30px;
+    cursor: pointer;
+    filter: invert(1);
+}
+.a{
+    color: rgba(247, 238, 238, 0.263);
+    font-size: 25px;
+    text-decoration: none;
+}
+.a:hover{
+    color: white;
+}
+ul{
+    display: flex;
+    gap: 20px;
+}
+ul>li{
+    list-style: none;
+}
+.flex{
+flex-wrap: wrap;
+gap: 10px;
+display: flex;
+}
